@@ -1,0 +1,246 @@
+/* Tổng thể */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+.img-box img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* HEADER */
+header {
+  background: #007bff;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+.logo {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+}
+nav a.active {
+  text-decoration: underline;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icon-btn, .login-btn {
+  background: white;
+  color: #007bff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart{
+  background: white;
+  color: #0a74ff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* .login-btn {
+  background: rgba(255,255,255,0.2);
+  border-radius: 6px;
+  padding: 6px 12px;
+} */
+
+/* BANNER */
+.banner {
+  background: #0073ff;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  position: relative;
+}
+.banner-nav {
+  margin-top: 20px;
+}
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  margin: 0 5px;
+  opacity: 0.4;
+}
+.dot.active {
+  opacity: 1;
+  border: 2px solid black;
+  background: white;
+}
+.arrow {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  font-size: 30px;
+}
+
+/* DANH MỤC */
+.category {
+  padding: 40px;
+}
+.breadcrumb {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.category-item {
+  text-align: center;
+}
+.category-item .img-box {
+  background: transparent;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.category-item p {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+/* BỘ LỌC */
+.filter {
+  display: flex;
+  gap: 10px;
+  padding: 0 40px;
+}
+.filter button {
+  border: 1px solid #ddd;
+  background: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* SẮP XẾP */
+.sort {
+  padding: 40px;
+}
+.sort-options {
+  display: flex;
+  gap: 10px;
+}
+.sort-options button {
+  border: 1px solid #ddd;
+  background: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* DANH SÁCH SẢN PHẨM */
+.product-grid {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+.product-card {
+  text-align: center;
+  background: #e0edff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.product-card .img-box {
+  background: #cfe4ff;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-card .new {
+  color: #0073ff;
+  font-weight: bold;
+  margin: 5px 0;
+}
+.product-card .price {
+  font-weight: bold;
+}
+.product-card .buy-btn {
+  background: #0073ff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 14px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.product-card a {
+  display: block;
+  margin-top: 6px;
+  color: #0073ff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* FOOTER */
+footer {
+  background: #0073ff;
+  color: white;
+  padding: 40px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 20px;
+}
+.footer-grid h4 {
+  margin-bottom: 10px;
+}
+.footer-grid p {
+  margin: 4px 0;
+}
+.footer-logo {
+  text-align: left;
+  font-weight: bold;
+}
+
+.banner-arrow-right {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  background: transparent;
+  border: none;
+  color: white;
+  transform: translateY(-50%);
+  font-size: 40px;
+  opacity: 1;
+}
+
+.banner-arrow-left {
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  background: transparent;
+  border: none;
+  color: white;
+  transform: translateY(-50%);
+  font-size: 40px;
+  opacity: 1;
+}

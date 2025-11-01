@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Trang tài khoản</title>
+  <link rel="stylesheet" href="../css/tai-khoan.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo" a href="../index.html">Trang chủ</div>
+    <nav class="nav">
+      <a href="../index.html">Điện thoại</a>
+      <a href="laptop-page.html">Laptop</a>
+      <a href="phu-kien-page.html">Phụ kiện</a>
+      <a href="#">Hỗ trợ</a>
+      <button class="login-btn">Đăng nhập</button>
+    </nav>
+  </header>
+
+  <main class="account-page">
+    <aside class="sidebar">
+      <h2>User1</h2>
+      <ul>
+        <li><a href="#" id="account-info-btn" class="active">Tài khoản của tôi</a></li>
+        <li><a href="#" id="order-history-btn">Lịch sử mua hàng</a></li>
+      </ul>
+      <button class="logout-btn">Đăng xuất</button>
+    </aside>
+
+    <section class="content">
+      <!-- Thông tin cá nhân -->
+      <div id="account-info" class="content-box">
+        <h3>Thông tin cá nhân</h3>
+        <p><strong>Họ và tên:</strong> Nguyễn Văn A</p>
+        <p><strong>Số điện thoại:</strong> 1234567890</p>
+        <p><strong>Giới tính:</strong> Nam</p>
+        <p><strong>Ngày sinh:</strong> 3/6/120</p>
+        <p><strong>Địa chỉ mặc định:</strong> 120 Yên Lãng</p>
+        <p><strong>Mật khẩu:</strong> *************</p>
+        <a href="#" class="change-password">Thay đổi mật khẩu</a>
+      </div>
+
+      <!-- Lịch sử mua hàng -->
+      <div id="order-history" class="content-box hidden">
+        <h3>Lịch sử mua hàng</h3>
+        <div class="order">
+          <div class="product-image">Ảnh sản phẩm</div>
+          <div class="product-info">
+            <p>Tên sản phẩm</p>
+            <p>Ngày mua: 12/3/2025</p>
+            <p>Thanh toán: Tiền</p>
+          </div>
+        </div>
+        <div class="order">
+          <div class="product-image">Ảnh sản phẩm</div>
+          <div class="product-info">
+            <p>Tên sản phẩm</p>
+            <p>Ngày mua: 20/5/2025</p>
+            <p>Thanh toán: Tiền</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="../js/tai-khoan.js"></script>
+</body>
+</html>

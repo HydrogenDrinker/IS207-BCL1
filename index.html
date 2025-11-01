@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang chủ - Cửa hàng Laptop & Phụ kiện</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">Trang chủ</div>
+    <nav>
+      <a href="pages/laptop-page.html">Laptop</a>
+      <a href="pages/phu-kien-laptop.html">Phụ kiện</a>
+      <a href="pages/hotro.html" target="_blank">Hỗ trợ</a>
+    </nav>
+    <div class="nav-actions">
+        <a href="pages/gio-hang.html"><span class="cart">🛒</span></a>
+        <a href="pages/dangnhap.html" class="login-btn">Đăng nhập</a>
+      </div>
+  </header>
+
+  <!-- BANNER -->
+  <section class="banner">
+    <h2>Banner khuyến mãi lớn</h2>
+    <p>Giảm giá đến 30% cho laptop và phụ kiện</p>
+  </section>
+
+  <!-- KHÁM PHÁ -->
+  <section class="section">
+    <h2>Khám phá</h2>
+    <div class="grid">
+
+      <div class="item">
+        <a href="pages/laptop-page.html">
+        <img src="https://p2-ofp.static.pub//fes/cms/2024/07/17/109vq5fdalv01w5jsu6vh35ncnk5jn890135.png" alt="">
+        <p>Laptop</p>
+        </a>
+      </div>
+      <div class="item">
+        <a href="pages/phu-kien-laptop.html">
+        <img src="images/pngegg.png" alt="">
+        <p>Phụ kiện laptop</p>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SẢN PHẨM MỚI -->
+  <section class="section">
+    <h2>Sản phẩm mới</h2>
+    <div class="grid">
+      <div class="product" data-id="macbook-air-m3" onclick="openProduct(this)">
+        <img src="https://cdn.tgdd.vn/Products/Images/44/324787/apple-macbook-air-13-inch-m3-2024-xanh-thumb-600x600.jpg" alt="">
+        <h3>MacBook Air M3 2024</h3>
+        <p class="price">28.990.000₫</p>
+        <button class="buy">Mua ngay</button>
+      </div>
+
+      <div class="product">
+        <img src="https://cdn.tgdd.vn/Products/Images/44/324793/apple-macbook-pro-14-inch-m3-2024-den-thumb-600x600.jpg" alt="">
+        <h3>MacBook Pro M3 2024</h3>
+        <p class="price">45.990.000₫</p>
+        <button class="buy">Mua ngay</button>
+      </div>
+
+      <div class="product">
+        <img src="https://cdn.tgdd.vn/Products/Images/44/307975/apple-macbook-air-13-inch-m2-2022-den-thumb-600x600.jpg" alt="">
+        <h3>MacBook Air M2 2022</h3>
+        <p class="price">24.990.000₫</p>
+        <button class="buy">Mua ngay</button>
+      </div>
+
+      <div class="product">
+        <img src="https://cdn.tgdd.vn/Products/Images/44/324788/apple-macbook-air-15-inch-m3-2024-hong-thumb-600x600.jpg" alt="">
+        <h3>MacBook Air 15" M3 2024</h3>
+        <p class="price">31.490.000₫</p>
+        <button class="buy">Mua ngay</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SẢN PHẨM HOT -->
+  <section class="section">
+    <h2>Sản phẩm HOT</h2>
+    <div class="grid">
+      <div class="product">
+        <img src="https://cdn.tgdd.vn/Products/Images/44/306578/acer-aspire-3-a315-24p-r3sm-r5-nxkdtss003-thumb-600x600.jpg" alt="">
+        <h3>Acer Aspire 3</h3>
+        <p class="price">12.990.000₫</p>
+        <button class="buy">Mua ngay</button>
+      </div>
+
+      <div class="product">
+        <img src="https://cdn.tgdd.vn/Products/Images/44/314234/asus-vivobook-14-oled-a1405va-lz191w-thumb-600x600.jpg" alt="">
+        <h3>Asus VivoBook OLED 14</h3>
+        <p class="price">17.490.000₫</p>
+        <button class="buy">Mua ngay</button>
+      </div>
+
+      <div class="product">
+        <img src="https://cdn.tgdd.vn/Products/Images/44/320319/hp-14-em0035au-r7-8e8q9pa-thumb-600x600.jpg" alt="">
+        <h3>HP 14 R7 7030U</h3>
+        <p class="price">14.290.000₫</p>
+        <button class="buy">Mua ngay</button>
+      </div>
+
+      <div class="product">
+        <img src="https://cdn.tgdd.vn/Products/Images/44/322298/lenovo-ideapad-5-pro-16arh7-r7-82sn00d8vn-thumb-600x600.jpg" alt="">
+        <h3>Lenovo IdeaPad 5 Pro</h3>
+        <p class="price">18.990.000₫</p>
+        <button class="buy">Mua ngay</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LAPTOP -->
+  <section class="section">
+    <h2>Laptop</h2>
+    <div class="grid">
+      <div class="product">
+        <img src="https://cdn.tgdd.vn/Products/Images/44/307975/apple-macbook-air-13-inch-m2-2022-den-thumb-600x600.jpg" alt="">
+        <h3>MacBook Air M2</h3>
+        <p class="price">24.990.000₫</p>
+        <button class="buy">Mua ngay</button>
+      </div>
+
+      <div class="product">
+        <img src="https://cdn.tgdd.vn/Products/Images/44/320308/acer-nitro-v-anv15-41-r5m3-r5-nhqn9sv003-thumb-600x600.jpg" alt="">
+        <h3>Acer Nitro V ANV15</h3>
+        <p class="price">22.990.000₫</p>
+        <button class="buy">Mua ngay</button>
+      </div>
+
+      <div class="product">
+        <img src="https://cdn.tgdd.vn/Products/Images/44/320317/asus-tuf-gaming-f15-fx507zv4-lp221w-thumb-600x600.jpg" alt="">
+        <h3>Asus TUF Gaming F15</h3>
+        <p class="price">28.490.000₫</p>
+        <button class="buy">Mua ngay</button>
+      </div>
+
+      <div class="product">
+        <img src="https://cdn.tgdd.vn/Products/Images/44/324789/apple-macbook-pro-16-inch-m3-pro-2024-bac-thumb-600x600.jpg" alt="">
+        <h3>MacBook Pro 16” M3 Pro</h3>
+        <p class="price">62.990.000₫</p>
+        <button class="buy">Mua ngay</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PHỤ KIỆN LAPTOP -->
+  <section class="section">
+    <h2>Phụ kiện</h2>
+    <div class="grid">
+      <div class="product">
+        <img src="https://cdn.tgdd.vn/Products/Images/57/307849/sac-magsafe-3-140w-type-c-thumb-600x600.jpg" alt="">
+        <h3>Sạc MagSafe 3 140W</h3>
+        <p class="price">2.490.000₫</p>
+        <button class="buy">Mua ngay</button>
+      </div>
+
+      <div class="product">
+        <img src="https://cdn.tgdd.vn/Products/Images/57/313561/chuot-bluetooth-logitech-m350-pebble-thumb-600x600.jpg" alt="">
+        <h3>Chuột Logitech Pebble</h3>
+        <p class="price">590.000₫</p>
+        <button class="buy">Mua ngay</button>
+      </div>
+
+      <div class="product">
+        <img src="https://cdn.tgdd.vn/Products/Images/57/320646/tai-nghe-airpods-pro-2-usb-c-thumb-600x600.jpg" alt="">
+        <h3>AirPods Pro 2 USB-C</h3>
+        <p class="price">5.490.000₫</p>
+        <button class="buy">Mua ngay</button>
+      </div>
+      
+      <div class="product">
+        <img src="https://cdn.tgdd.vn/Products/Images/57/314703/op-lung-macbook-air-13-inch-m2-m3-2022-2024-1-thumb-600x600.jpg" alt="">
+        <h3>Ốp MacBook Air</h3>
+        <p class="price">790.000₫</p>
+        <button class="buy">Mua ngay</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <div>
+        <h4>Sản phẩm</h4>
+        <p>Laptop</p>
+      </div>
+      <div>
+        <h4>Phụ kiện</h4>
+        <p>Tai nghe</p>
+        <p>Sạc</p>
+        <p>Tản nhiệt</p>
+      </div>
+      <div>
+        <h4>Hỗ trợ</h4>
+        <p>Chính sách mua hàng</p>
+        <p>Chính sách đổi trả</p>
+        <p>Chính sách giao hàng</p>
+        <p>Chính sách bảo mật</p>
+      </div>
+      <div>
+        <h4>Liên hệ</h4>
+        <p>SĐT:  1900 xxxx</p>
+        <p>Mail:  hello@gmail.com</p>
+        <p>Địa chỉ:  120 Yên Lãng</p>
+      </div>
+    </div>
+    <div class="footer-logo">LOGO</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

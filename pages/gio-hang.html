@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Giỏ hàng</title>
+  <link rel="stylesheet" href="../css/gio-hang.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="../index.html" class="logo">Trang chủ</a>
+    <nav class="nav">
+      <a href="laptop-page.html">Laptop</a>
+      <a href="phu-kien-laptop.html">Phụ kiện</a>
+      <a href="#">Hỗ trợ</a>
+    </nav>
+    <div class="nav-actions">
+        <a href="gio-hang.html"><span class="cart">🛒</span></a>
+        <a href="dangnhap.html" class="login-btn">Đăng nhập</a> 
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="cart-container">
+    <h2>Giỏ hàng</h2>
+
+    <div class="cart-table">
+      <div class="cart-header">
+        <div class="col col-product">Tất cả (2 sản phẩm)</div>
+        <div class="col col-price">Đơn giá</div>
+        <div class="col col-qty">Số lượng</div>
+        <div class="col col-total">Thành tiền</div>
+      </div>
+
+      <div class="cart-item">
+        <div class="col col-product">
+          <div class="product-img">Hình ảnh sản phẩm</div>
+          <div class="product-info">
+            <p>Tên sản phẩm</p>
+          </div>
+        </div>
+        <div class="col col-price">Giá tiền</div>
+        <div class="col col-qty">
+          <button class="qty-btn" onclick="changeQty(this, -1)">-</button>
+          <span class="qty">1</span>
+          <button class="qty-btn" onclick="changeQty(this, 1)">+</button>
+        </div>
+        <div class="col col-total">Tổng tiền</div>
+      </div>
+
+      <div class="cart-item">
+        <div class="col col-product">
+          <div class="product-img">Hình ảnh sản phẩm</div>
+          <div class="product-info">
+            <p>Tên sản phẩm</p>
+          </div>
+        </div>
+        <div class="col col-price">Giá tiền</div>
+        <div class="col col-qty">
+          <button class="qty-btn" onclick="changeQty(this, -1)">-</button>
+          <span class="qty">1</span>
+          <button class="qty-btn" onclick="changeQty(this, 1)">+</button>
+        </div>
+        <div class="col col-total">Tổng tiền</div>
+      </div>
+    </div>
+
+    <div class="cart-summary">
+      <div class="shipping-info">
+        <h3>Giao tới</h3>
+        <p><strong>Tên nhận / SDT</strong></p>
+        <p><strong>Địa chỉ</strong></p>
+      </div>
+
+      <div class="total-info">
+        <p><strong>Tổng số sản phẩm:</strong> <span id="total-items">2</span></p>
+        <p><strong>Tổng thanh toán:</strong> <span id="total-price">Tiền</span></p>
+        <button class="buy-btn">Mua Ngay</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="../js/gio-hang.js"></script>
+</body>
+</html>

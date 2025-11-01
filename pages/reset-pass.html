@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Đặt lại mật khẩu</title>
+  <link rel="stylesheet" href="../css/reset-pass.css">
+</head>
+<body>
+  <div class="reset-container">
+    <div class="reset-image">
+      <span>hình ảnh</span>
+    </div>
+
+    <div class="reset-form">
+      <h2>Đặt lại mật khẩu</h2>
+
+      <div class="input-group">
+        <label for="new-password">Mật khẩu mới</label>
+        <div class="password-field">
+          <input type="password" id="new-password" placeholder="Nhập mật khẩu mới">
+          <span class="toggle-password" onclick="togglePassword('new-password', this)">👁️</span>
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label for="confirm-password">Nhập lại mật khẩu mới</label>
+        <div class="password-field">
+          <input type="password" id="confirm-password" placeholder="Nhập lại mật khẩu mới">
+          <span class="toggle-password" onclick="togglePassword('confirm-password', this)">👁️</span>
+        </div>
+      </div>
+
+      <button class="btn reset-btn" id="changeBtn">Thay đổi mật khẩu</button>
+    </div>
+  </div>
+
+  <script src="../js/reset-pass.js"></script>
+</body>
+</html>

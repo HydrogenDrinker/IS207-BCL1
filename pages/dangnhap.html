@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Đăng nhập</title>
+  <link rel="stylesheet" href="../css/dangnhap.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-image">
+      <img src="../images/mba_15_m3_2024_hero.png" alt="Login Image">
+    </div>
+
+    <div class="login-form">
+      <h2>Đăng nhập</h2>
+
+      <form id="loginForm">
+        <div class="input-group">
+        <label for="email">Email</label>
+          <div class="email-field">
+            <input type="email" id="email" placeholder="Nhập email"></div>
+        </div>
+
+        <div class="input-group">
+          <label for="password">Nhập mật khẩu</label>
+          <div class="password-field">
+            <input type="password" id="password" placeholder="Nhập mật khẩu">
+            <span class="toggle-password" onclick="togglePassword('password', this)">👁️</span>
+          </div>
+        </div>
+      </form>
+
+      <div class="links">
+          <span>Chưa có tài khoản? <a href="dangki.html">Đăng ký ngay</a></span><br>
+          <a href="quen-mat-khau.html">Quên mật khẩu?</a>
+      </div>
+
+      <button type="submit" class="btn login-btn">Đăng nhập</button>
+      <button type="button" class="btn signup-btn" onclick="window.location='dangki.html'">Đăng ký</button>
+
+      <div class="divider">
+        <hr><span>Hoặc</span><hr>
+      </div>
+
+      <button type="button" class="btn google-btn">
+        <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google" class="google-icon">
+        Đăng nhập với Google
+      </button>
+
+    </div>
+  </div>
+
+  <script src="../js/dangnhap.js"></script>
+</body>
+</html>

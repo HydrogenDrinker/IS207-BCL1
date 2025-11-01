@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f7fb;
+  color: #000;
+}
+
+/* HEADER */
+header {
+  background: #007bff;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.logo {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 500;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.login-btn {
+  background: white;
+  color: #007bff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart{
+  background: white;
+  color: #0a74ff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* BANNER */
+.banner {
+  text-align: center;
+  background: #cfe0ff;
+  padding: 70px 20px;
+  color: #004aad;
+}
+
+/* SECTION */
+.section {
+  padding: 40px;
+  text-align: center;
+}
+
+.section h2 {
+  color: #004aad;
+  margin-bottom: 25px;
+  font-size: 1.5em;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.item, .product {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.item:hover, .product:hover {
+  transform: translateY(-5px);
+}
+
+.item img, .product img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #f0f0f0;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.buy {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer {
+  background-color: #007bff;
+  color: white;
+  padding: 40px 20px;
+  margin-top: 60px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer-container h4 {
+  margin-bottom: 10px;
+}
+
+.footer-container p {
+  margin: 4px 0;
+}
+
+.footer-logo {
+  text-align: center;
+  font-weight: bold;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Đăng ký</title>
+  <link rel="stylesheet" href="../css/dangki.css">
+</head>
+<body>
+  <div class="register-container">
+    <div class="register-image">
+      <img src="../images/mba_15_m3_2024_hero.png" alt="Signup Image">
+    </div>
+
+    <div class="register-form">
+      <h2>Đăng ký</h2>
+
+      <div class="input-group">
+        <label for="email">Email</label>
+        <div class="email-field">
+          <input type="email" id="mail" placeholder="Nhập email">
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label for="password">Nhập mật khẩu</label>
+        <div class="password-field">
+          <input type="password" id="password" placeholder="Nhập mật khẩu ">
+          <span class="toggle-password" onclick="togglePassword('password', this)">👁️</span>
+        </div>
+      </div>
+
+        <button type="submit" class="register-btn">Đăng ký</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="../js/dangki.js"></script>
+</body>
+</html>

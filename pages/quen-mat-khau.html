@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Quên mật khẩu</title>
+  <link rel="stylesheet" href="../css/quen-mat-khau.css">
+</head>
+<body>
+  <div class="forgot-container">
+    <div class="forgot-image">
+      <img src="../images/mba_15_m3_2024_hero.png" alt="Forgot Image">
+    </div>
+
+    <div class="forgot-form">
+      <h2>Quên mật khẩu</h2>
+
+      <label>Nhập mã OTP</label>
+      <div class="otp-container">
+        <input type="text" maxlength="1" class="otp-input">
+        <input type="text" maxlength="1" class="otp-input">
+        <input type="text" maxlength="1" class="otp-input">
+        <input type="text" maxlength="1" class="otp-input">
+        <input type="text" maxlength="1" class="otp-input">
+        <input type="text" maxlength="1" class="otp-input">
+      </div>
+
+      <div class="resend">
+        <a href="#" id="resendLink">Gửi lại mã OTP</a> (<span id="timer">60</span>s)
+      </div>
+
+      <button class="btn reset-btn" id="resetBtn">Đặt lại mật khẩu</button>
+    </div>
+  </div>
+
+  <script src="../js/quen-mat-khau.js"></script>
+</body>
+</html>

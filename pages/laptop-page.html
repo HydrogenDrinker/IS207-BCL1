@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trang Laptop</title>
+  <link rel="stylesheet" href="../css/laptop-style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      <a href="../index.html">Trang chủ</a>
+    </div>
+    <nav>
+      <a href="laptop-page.html" class="">Laptop</a>
+      <a href="phu-kien-laptop.html">Phụ kiện</a>
+      <a href="pages/hotro.html" target="_blank">Hỗ trợ</a>
+    </nav>
+    <div class="nav-actions">
+        <a href="gio-hang.html"><span class="cart">🛒</span></a>
+        <a href="dangnhap.html" class="login-btn">Đăng nhập</a>
+      </div>
+  </header>
+
+  <!-- BANNER -->
+  <section class="banner">
+    <div class="banner-container">
+      <div class="banner-slide active">
+        <h1>Banner</h1>
+      </div>
+      <div class="banner-slide">
+        <h1>Giảm giá đến 50% cho Laptop MSI</h1>
+      </div>
+      <div class="banner-slide">
+        <h1>Mua Laptop tặng kèm phụ kiện chính hãng</h1>
+      </div>
+
+      <button class="banner-arrow-right">></button>
+      <button class="banner-arrow-left"><</button>
+
+      <!-- Dots -->
+      <div class="banner-dots">
+        <span class="dot active" data-index="0"></span>
+        <span class="dot" data-index="1"></span>
+        <span class="dot" data-index="2"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- BREADCRUMB -->
+  <div class="breadcrumb">
+    <a href="../index.html">Trang chủ</a> / <span>Laptop</span>
+  </div>
+
+  <!-- BỘ LỌC -->
+  <section class="filters">
+    <h2>Laptop</h2>
+    <div class="brands">
+      <button>MacBook</button>
+      <button>MSI</button>
+      <button>Acer</button>
+      <button>Asus</button>
+      <button>Gigabyte</button>
+      <button>Dell</button>
+    </div>
+
+    <div class="options">
+      <select>
+        <option>Bộ lọc</option>
+      </select>
+
+      <select>
+        <option>Hãng</option>
+        <option>Apple</option>
+        <option>MSI</option>
+        <option>Acer</option>
+        <option>Asus</option>
+        <option>Gigabyte</option>
+        <option>Dell</option>
+      </select>
+
+      <select>
+        <option>Giá</option>
+        <option>Dưới 10 triệu</option>
+        <option>10 - 15 triệu</option>
+        <option>15 - 20 triệu</option>
+        <option>20 - 25 triệu</option>
+        <option>Trên 25 triệu</option>
+      </select>
+
+      <select>
+        <option>RAM</option>
+        <option>4 GB</option>
+        <option>8 GB</option>
+        <option>16 GB</option>
+        <option>32 GB</option>
+        <option>64 GB</option>
+      </select>
+
+      <select>
+        <option>CPU</option>
+        <option>Intel</option>
+        <option>AMD</option>
+        <option>Apple M1</option>
+        <option>Apple M2</option>
+      </select>
+
+      <select>
+        <option>Card đồ họa</option>
+        <option>Onboard</option>
+        <option>Rời</option>
+      </select>
+
+      <select>
+        <option>Nhu cầu sử dụng</option>
+        <option>Văn phòng</option>
+        <option>Gaming</option>
+        <option>Đồ họa</option>
+      </select>
+
+      <select>
+        <option>Dung lượng lưu trữ</option>
+        <option>256 GB</option>
+        <option>512 GB</option>
+        <option>1 TB</option>
+        <option>2 TB</option>
+      </select>
+
+    </div>
+
+    <div class="sort">
+      <span>Sắp xếp theo:</span>
+      <button>Phổ biến</button>
+      <button>🔥 HOT</button>
+      <button>Giá tăng</button>
+      <button>Giá giảm</button>
+    </div>
+  </section>
+
+  <!-- DANH SÁCH SẢN PHẨM -->
+  <section class="products">
+    <!-- Lặp 16 sản phẩm demo -->
+    <div class="product">
+        <img src="https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/macbook_air_13_m4_2025_xanh_1_16309323fd.jpg">
+      <p class="new">Mới</p>
+      <h3>Macbook M3 Pro</h3>
+      <p class="price">49.999.999 đ</p>
+      <button class="buy">Mua ngay</button>
+      <a href="#" class="details">Tìm hiểu thêm</a>
+    </div>
+
+    <div class="product">
+        <img src="https://cdn2.fptshop.com.vn/unsafe/828x0/filters:format(webp):quality(75)/2022_7_21_637939946171184285_Macbook%20Air%20M1%20(7).jpg">
+      <p class="new">Mới</p>
+      <h3>Macbook Air M1</h3>
+      <p class="price">15.690.000 đ</p>
+      <button class="buy">Mua ngay</button>
+      <a href="#" class="details">Tìm hiểu thêm</a>
+    </div>
+
+    <div class="product">
+        <img src="https://cdn2.fptshop.com.vn/unsafe/360x0/filters:format(webp):quality(75)/hp_14_ep1179tu_bac_01_6fa601eea3.png">
+      <p class="new">Mới</p>
+      <h3>HP 14-EP0220TU B73VWPA V2</h3>
+      <p class="price">10.990.000 đ</p>
+      <button class="buy">Mua ngay</button>
+      <a href="#" class="details">Tìm hiểu thêm</a>
+    </div>
+
+    <div class="product">
+        <img src="https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/hp_gaming_victus_15_fa2732tx_1_59cb49afd5.png">  
+      <p class="new">Mới</p>
+      <h3>HP Gaming Victus 15</h3>
+      <p class="price">22.190.000 đ</p>
+      <button class="buy">Mua ngay</button>
+      <a href="#" class="details">Tìm hiểu thêm</a>
+    </div>
+
+    <!-- <div class="product">
+      <div class="image">Ảnh</div>
+      <p class="new">Mới</p>
+      <h3>Tên sản phẩm</h3>
+      <p class="price">Giá</p>
+      <button class="buy">Mua ngay</button>
+      <a href="#" class="details">Tìm hiểu thêm</a>
+    </div>
+
+    <div class="product">
+      <div class="image">Ảnh</div>
+      <p class="new">Mới</p>
+      <h3>Tên sản phẩm</h3>
+      <p class="price">Giá</p>
+      <button class="buy">Mua ngay</button>
+      <a href="#" class="details">Tìm hiểu thêm</a>
+    </div>
+
+    <div class="product">
+      <div class="image">Ảnh</div>
+      <p class="new">Mới</p>
+      <h3>Tên sản phẩm</h3>
+      <p class="price">Giá</p>
+      <button class="buy">Mua ngay</button>
+      <a href="#" class="details">Tìm hiểu thêm</a>
+    </div>
+
+    <div class="product">
+      <div class="image">Ảnh</div>
+      <p class="new">Mới</p>
+      <h3>Tên sản phẩm</h3>
+      <p class="price">Giá</p>
+      <button class="buy">Mua ngay</button>
+      <a href="#" class="details">Tìm hiểu thêm</a>
+    </div>
+
+    <div class="product">
+      <div class="image">Ảnh</div>
+      <p class="new">Mới</p>
+      <h3>Tên sản phẩm</h3>
+      <p class="price">Giá</p>
+      <button class="buy">Mua ngay</button>
+      <a href="#" class="details">Tìm hiểu thêm</a>
+    </div>
+
+    <div class="product">
+      <div class="image">Ảnh</div>
+      <p class="new">Mới</p>
+      <h3>Tên sản phẩm</h3>
+      <p class="price">Giá</p>
+      <button class="buy">Mua ngay</button>
+      <a href="#" class="details">Tìm hiểu thêm</a>
+    </div>
+
+    <div class="product">
+      <div class="image">Ảnh</div>
+      <p class="new">Mới</p>
+      <h3>Tên sản phẩm</h3>
+      <p class="price">Giá</p>
+      <button class="buy">Mua ngay</button>
+      <a href="#" class="details">Tìm hiểu thêm</a>
+    </div>
+
+    <div class="product">
+      <div class="image">Ảnh</div>
+      <p class="new">Mới</p>
+      <h3>Tên sản phẩm</h3>
+      <p class="price">Giá</p>
+      <button class="buy">Mua ngay</button>
+      <a href="#" class="details">Tìm hiểu thêm</a>
+    </div> -->
+
+    <!-- sao chép thêm để có 16 item -->
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <h4>Sản phẩm</h4>
+        <p>Laptop</p>
+      </div>
+      <div>
+        <h4>Phụ kiện</h4>
+        <p>Tai nghe</p>
+        <p>Sạc</p>
+        <p>Tản nhiệt</p>
+      </div>
+      <div>
+        <h4>Hỗ trợ</h4>
+        <p>Chính sách mua hàng</p>
+        <p>Chính sách đổi trả</p>
+        <p>Chính sách giao hàng</p>
+        <p>Chính sách bảo mật</p>
+      </div>
+      <div>
+        <h4>Liên hệ</h4>
+        <p>SĐT:  1900 xxxx</p>
+        <p>Mail:  hello@gmail.com</p>
+        <p>Địa chỉ:  120 Yên Lãng</p>
+      </div>
+    </div>
+    <p class="footer-logo">LOGO</p>
+  </footer>
+  <!-- <script src="../js/laptop-page.js"></script>
+  <script src="../js/product.js"></script> -->
+</body>
+</html>
